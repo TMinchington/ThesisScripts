@@ -1,0 +1,6 @@
+incoherent_fb	237	3809	1254
+protein_fb	266	266	0
+targets_host	0	0	0
+amplified_feedback	264	24381	445
+dual_feedback	264	19622	263
+tf_mir_loop	375	5200	1397
