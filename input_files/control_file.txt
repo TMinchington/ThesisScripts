@@ -1,0 +1,19 @@
+#file_locations_for_map_construction
+
+@	INFILE_DIRECTORY=/Users/mqbpktm3/Dropbox (The University of Manchester)/0-PhD/1-ChIP Network/17-CRM/input_files/
+
+@	MIRTAR_FILE=mirHOST/hsa_MTI.txt
+
+@	GENOME_FILE=HUmanGenomeInfo2018-justChr.txt
+
+@	MIRHOSTS=hsa_hosts.txt
+
+@	REMAP_FILE=/Users/mqbpktm3/Dropbox (The University of Manchester)/0-PhD/1-ChIP Network/17-CRM/input_files/ReMap2_allPeaks-REFORMATED-crm_filtered.bed
+
+@	MAP_FOLDER=/Users/mqbpktm3/Dropbox (The University of Manchester)/0-PhD/1-ChIP Network/17-CRM/work_files/map/
+
+@	MIRTAR_edge_file=/Users/mqbpktm3/Dropbox (The University of Manchester)/0-PhD/1-ChIP Network/17-CRM/input_files/mirHOST/mirtar_edges.txt
+
+@	NETWORK_DIRECTORY=/Users/mqbpktm3/Dropbox (The University of Manchester)/0-PhD/1-ChIP Network/17-CRM/
+
+@	CONVERSION_FILE=/Users/mqbpktm3/Dropbox (The University of Manchester)/0-PhD/1-ChIP Network/17-CRM/input_files/conversion_file.txt
