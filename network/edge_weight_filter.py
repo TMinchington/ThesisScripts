@@ -1,6 +1,6 @@
 def filter_map_mean(newtwork, filter_dic):
 
-    outfile = open(newtwork.replace('.', 'EdgeFmean2SDoM.'), 'w')
+    outfile = open(newtwork.replace('.', 'EdgeFmean.'), 'w')
 
     with open(newtwork) as open_net:
 
@@ -32,7 +32,7 @@ def filter_map_mean(newtwork, filter_dic):
 
 def filter_map_median(newtwork, filter_dic):
 
-    outfile = open(newtwork.replace('.', 'EdgeFmed2SDoM.'), 'w')
+    outfile = open(newtwork.replace('.', 'EdgeFmed.'), 'w')
 
     with open(newtwork) as open_net:
 
@@ -74,7 +74,7 @@ def filter_map_2SDmeanH(newtwork, filter_dic):
 
     """
 
-    outfile = open(newtwork.replace('.', 'EdgeF_1D2SM.'), 'w')
+    outfile = open(newtwork.replace('.', 'EdgeFmean2SDoM.'), 'w')
 
     with open(newtwork) as open_net:
 
@@ -234,8 +234,8 @@ if __name__ == "__main__":
 
     filter_dic = load_filter_dic(args.edge_stats)
 
-    # filter_map_2SDmeanH(args.network, filter_dic)
+    filter_map_2SDmeanH(args.network, filter_dic)
     # filter_map_2SDmeanBW(args.network, filter_dic)
     # filter_map_1SDmeanH(args.network, filter_dic)
-    filter_map_mean(args.network, filter_dic)
-    filter_map_median(args.network, filter_dic)
+    # filter_map_mean(args.network, filter_dic)
+    # filter_map_median(args.network, filter_dic)
